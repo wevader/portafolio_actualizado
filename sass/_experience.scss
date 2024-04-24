@@ -1,0 +1,72 @@
+.technology {
+  gap: 10px;
+}
+
+#experience{
+  grid-area: experience;
+  display: flex;
+  flex-flow: column wrap;
+  place-content: center;
+  padding: 20px;
+  
+  width: 100vw;
+  height: auto;
+  box-sizing: border-box;
+  background-color: rgb(14, 31, 31);
+  color: black;
+}
+
+#experience h2{
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+#experience article{
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center;
+
+  width: 100vw;
+  height: auto;
+  gap: 10px;
+
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#experience article aside{
+display: flex;
+flex-flow: column nowrap;
+place-content: center;
+align-items: center;
+
+
+gap: 10px;
+padding: 10px;
+
+width: 25vw;
+height: auto;
+background-color: whitesmoke;
+
+box-sizing: border-box;
+border-radius: 10px 0 0 10px;
+}
+
+#experience article div{
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center;
+  background-color: whitesmoke;
+
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+}
+#experience article div ul{
+  display: flex;
+  flex-flow: column wrap;
+  place-content: start;
+
+  width: 50vw;
+  height: auto;
+}

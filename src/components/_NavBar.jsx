@@ -47,7 +47,7 @@ const NavBar = () => {
         <a href="https://github.com/wevader"
         target="_blank"
         rel="noreferrer">
-          <img src="./public/github.png" alt="" className="github_image" />
+          <img src="/github.png" alt="" className="github_image" />
         </a>
         <a 
         href="https://www.linkedin.com/in/victor-daniel-mendez-torres-4206a8111/"

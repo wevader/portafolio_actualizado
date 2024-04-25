@@ -46,7 +46,7 @@ header {
 }
 
 img {
-  width: 20vw;
+  width: 30vw;
   border-radius: 9999px;
   box-sizing: border-box;
 }
@@ -184,11 +184,11 @@ aside:hover img {
   place-content: center;
   position: relative;
   background-color: whitesmoke;
-  border: none;
   box-sizing: border-box;
-  border-radius: 20px;
-  gap: 10px;
-  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  gap: 1vw;
+  padding: 1vw;
   width: auto;
   height: auto;
   transition-duration: 2s;
@@ -217,22 +217,29 @@ aside:hover img {
 .python_image,
 .typescript_image,
 .figma_image {
+  width: 4vw;
+  height: auto;
+}
+
+.github_image,
+.linkedin_image {
   width: 3vw;
+  height: auto;
 }
 
 #tech {
   display: flex;
   flex-flow: column;
   place-content: center;
-  gap: 10px;
-  padding: 5px 10px;
+  gap: 2vh;
   box-sizing: border-box;
   grid-area: tech;
   border-radius: 0 0 10px 10px;
   width: auto;
   height: auto;
   position: absolute;
-  left: 50px;
+  left: 2vw;
+  top: 3vh;
 }
 
 .technology {
@@ -244,7 +251,7 @@ aside:hover img {
   display: flex;
   flex-flow: column wrap;
   place-content: center;
-  padding: 20px;
+  padding: 3vh;
   width: 100vw;
   height: auto;
   box-sizing: border-box;
@@ -307,7 +314,7 @@ aside:hover img {
   place-content: center;
   align-items: center;
   gap: 5vh;
-  padding: 25vh 10vw;
+  padding: 15vh;
   box-sizing: border-box;
   background-color: rgb(14, 31, 31);
   width: 100vw;
@@ -371,8 +378,13 @@ aside:hover img {
 }
 
 .contact img {
-  width: 3vw;
+  width: 4vw;
   height: auto;
+  opacity: 0.4;
+  transition: opacity 2000ms;
+}
+.contact img:hover {
+  opacity: 0.9;
 }
 
 #form {
@@ -381,7 +393,7 @@ aside:hover img {
   flex-flow: row wrap;
   place-content: center;
   width: 100vw;
-  height: 50vh;
+  height: auto;
   padding: 5vh 10vw;
   gap: 20px;
   box-sizing: border-box;

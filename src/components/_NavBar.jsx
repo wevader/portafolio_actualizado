@@ -53,7 +53,7 @@ const NavBar = () => {
         href="https://www.linkedin.com/in/victor-daniel-mendez-torres-4206a8111/"
         target="_blank"
         rel="noreferrer">
-          <img src="/linkedin.png" alt="" className="github_image" />
+          <img src="/linkedin.png" alt="" className="linkedin_image" />
         </a>
         
         </button>

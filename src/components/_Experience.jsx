@@ -9,6 +9,7 @@ const _Experience = () => {
           <span>QA Test</span>
           <span>MetaMap</span>
           <span>San Francisco,CA</span>
+          <span>3 years</span>
           <div className="technology">
             <img src="/html5.png" alt="" className="html_image" />
             <img src="/css3-alt.png" alt="" className="css_image" />
@@ -31,6 +32,7 @@ const _Experience = () => {
           <span>Technical Support Specialist</span>
           <span>Contactum</span>
           <span>México</span>
+          <span>1 years</span>
           <div className="technology">
             <img src="/js.png" alt="" className="js_image" />
             <img src="/python.png" alt="" className="python_image" />

@@ -20,7 +20,7 @@ header{
 }
 
 img{
-  width: 20vw;
+  width: 30vw;
   border-radius: 9999px;
   box-sizing: border-box;
 }
@@ -173,12 +173,11 @@ aside:hover img {
   place-content: center;
   position: relative;
   background-color: whitesmoke;
-  border: none;
   box-sizing: border-box;
-  border-radius: 20px;
-
-  gap: 10px;
-  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  gap: 1vw;
+  padding: 1vw;
 
   width: auto;
   height: auto;
@@ -215,16 +214,22 @@ aside:hover img {
 .python_image,
 .typescript_image,
 .figma_image{
-  width: 3vw;
+  width: 4vw;
+  height: auto;
 }
 
+.github_image,
+.linkedin_image{
+  width: 3vw;
+  height: auto;
+}
 
 #tech{
   display: flex;
   flex-flow: column;
-  place-content: center;
-  gap: 10px;
-  padding: 5px 10px;
+  place-content: center; 
+
+  gap: 2vh;
   
   box-sizing: border-box;
   
@@ -234,7 +239,8 @@ aside:hover img {
   height: auto;
 
   position: absolute;
-  left: 50px;
+  left: 2vw;
+  top: 3vh;
 }
 
 

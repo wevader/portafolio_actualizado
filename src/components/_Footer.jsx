@@ -13,10 +13,10 @@ const Footer = () => {
       <section className="contact">
   
         <a href="tel:+546142241798">
-          <img src="./public/whatsapp.png" alt="whatsapp" />
+          <img src="/whatsapp.png" alt="whatsapp" />
         </a>
         <a href="mailto:wevader1986@gmail.com">
-          <img src="./public/sobre.png" alt="email" />
+          <img src="/sobre.png" alt="email" />
         </a>
         
       </section>

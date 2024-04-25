@@ -5,16 +5,16 @@ const Projects = () => {
     <section id="projects">
       <h2>My Projects</h2>
       <div>
-        <img className="image_ecommers" src="./public/ecommers.png" alt="e-commers" />
+        <img className="image_ecommers" src="/ecommers.png" alt="e-commers" />
       </div>
       <div>
-        <img className="image_movies" src="./public/movies.png" alt="streaming" />
+        <img className="image_movies" src="/movies.png" alt="streaming" />
       </div>
       <div>
-        <img className="image_gastos" src="./public/gastos.png" alt="finance" />
+        <img className="image_gastos" src="/gastos.png" alt="finance" />
       </div>
       <div>
-        <img className="image_blog" src="./public/blog.png" alt="blog" />
+        <img className="image_blog" src="/blog.png" alt="blog" />
       </div>
 
     </section>

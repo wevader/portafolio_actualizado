@@ -21,6 +21,9 @@
   &:hover{
     opacity: 0.9;
   }
+  @media (max-width: 1250px){
+    width: 8vw;
+  }
 }
 
 #form{

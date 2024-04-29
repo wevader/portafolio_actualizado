@@ -403,8 +403,8 @@ aside:hover img {
   box-sizing: border-box;
   border-radius: 30px;
   gap: 2vw;
-  width: 20vw;
-  height: 10vh;
+  width: auto;
+  height: auto;
   background-color: whitesmoke;
 }
 

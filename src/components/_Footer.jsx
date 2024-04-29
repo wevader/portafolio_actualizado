@@ -11,14 +11,17 @@ const Footer = () => {
       </section>
       
       <section className="contact">
-    
-        <a href="tel:+546142241798">
-          <img src="/whatsapp.png" alt="whatsapp" className="whatsapp_image" />
-        </a>
-        <a href="mailto:wevader1986@gmail.com">
-          <img src="/sobre.png" alt="email" className="email_image"/>
-        </a>
-        
+            <fieldset >
+              <legend>Contact Me</legend>
+              <section className="contact_imagens">
+                <a href="tel:+546142241798">
+                  <img src="/whatsapp.png" alt="whatsapp" className="whatsapp_image" />
+                </a>
+                <a href="mailto:wevader1986@gmail.com">
+                  <img src="/sobre.png" alt="email" className="email_image"/>
+                </a> 
+              </section>
+            </fieldset>
       </section>
 
     </footer>

@@ -27,7 +27,7 @@ const NavBar = () => {
         <article>
         <ul>
           <li>
-            Physics Engineer with 3 years of experience in technology industry, 
+            Physics Engineer with 4 years of experience in technology industry, 
             web developer, data analytics, quality assurance, customer support
             and frauds detection.
           </li>

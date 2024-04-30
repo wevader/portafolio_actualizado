@@ -23,12 +23,12 @@
 }
 .contact_imagens{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   place-content: center;
   box-sizing: border-box;
   border-radius: 30px;
   
-  gap: 2vw;
+  gap: 3vw;
   padding: 10px;
 
   width: auto;
@@ -73,11 +73,11 @@
 
 #education{
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   place-content: center;
   align-items: center;
 
-  padding: 10px;
-  gap: 4vh;
+  padding: 1vh;
+  gap: 3vh;
   box-sizing: border-box;
 }

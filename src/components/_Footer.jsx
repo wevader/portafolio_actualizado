@@ -14,12 +14,15 @@ const Footer = () => {
             <fieldset >
               <legend>Contact Me</legend>
               <section className="contact_imagens">
-                <a href="tel:+546142241798">
-                  <img src="/whatsapp.png" alt="whatsapp" className="whatsapp_image" />
+                <a href="tel:+526142241798" target="_blank">
+                  <img src="/llamada-telefonica.png" alt="llamada" className="llamada_image" />
                 </a>
-                <a href="mailto:wevader1986@gmail.com">
+                <a href="mailto:wevader1986@gmail.com" target="_blank">
                   <img src="/sobre.png" alt="email" className="email_image"/>
                 </a> 
+                <a href="http://wa.me/+526142241798 " target="_blank">
+                  <img src="/whatsapp.png" alt="whatsapp" className="whatsapp_image" />
+                </a>
               </section>
             </fieldset>
       </section>

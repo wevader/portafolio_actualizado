@@ -11,7 +11,7 @@ const NavBar = () => {
         <img src="/figma.png" alt="" className="figma_image" />
         <img src="/js.png" alt="" className="js_image" />
         <img src="/typescript.png" alt="" className="typescript_image" />
-        <img className = "react_image" src="/atom.png" alt="react.js" />
+        <img className = "react_image" src="/react.png" alt="react.js" />
         <img src="/mysql.png" alt="" className="mysql_image" />
         <img src="/python.png" alt="" className="python_image" />
       </aside>

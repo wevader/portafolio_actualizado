@@ -15,7 +15,7 @@ const _Experience = () => {
             <img src="/css3-alt.png" alt="" className="css_image" />
             <img src="/js.png" alt="" className="js_image" />
             <img src="/typescript.png" alt="" className="typescript_image" />
-            <img className = "react_image" src="/atom.png" alt="react.js" />
+            <img className = "react_image" src="/react.png" alt="react.js" />
           </div>
           
         </aside>
